@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Cetis 116 Vespertino</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            window.onload = function(){
+                document.getElementsByName("Buscarbtn").addEventListener("click",buscar);
+            }
+            function buscar(){
+                var nombre = document.getElementsByName("Nombretxt").value;
+                alert("EL nombre es" +nombre);
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Descarga</h1>
+        </header>
+        <input type="text" placeholder="Escribre tu Nombre" size="30" name="Nombretxt">
+        <br/>
+        <button name="Buscarbtn">Buscar</button>
+        <article>
+            <section>
+                <a href="Docs/InformeCicloEstralRatas.pdf" download>Click y descarga</a>
+            </section>
+        </article>
+    </body>
+</html>
