@@ -1,5 +1,5 @@
 function buscar (){
-                var matricula = document.getElementById("Matriculatxt").value;
-                 var documento = "Docs/" + matricula + ".pdf"
+                var curp = document.getElementById("Curptxt").value;
+                 var documento = "Docs/" + curp + ".pdf"
                 window.open(documento);
             }
